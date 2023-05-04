@@ -3,8 +3,8 @@ import random, requests, datetime, time
 from colorama import Fore, Style
 
 # configs
-token = 'token_here'
-username = 'username_here'
+token = "token_here"
+username = "username_here"
 def current_time():
     return datetime.datetime.now().strftime("%d/%m·%H:%M")
 
