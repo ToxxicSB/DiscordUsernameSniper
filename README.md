@@ -1,7 +1,7 @@
-# [DiscordUsernameSniper](https://)
+# [DiscordUsernameSniper](https://youtu.be/dQw4w9WgXcQ)
 ### Snipes usernames on Discords new system for usernames that will replace user and discriminatiors.
 ___
-![sniper gif](https://toxxicsb.tk/img/main.gif)
+![sniper gif](https://j.gifs.com/Kkwgwa.gif)
 #### Features 
 - [x] efficient
 - [x] undetectable 
