@@ -4,6 +4,7 @@ from colorama import Fore, Style
 
 # configs
 token = 'token_here'
+username = 'username_here'
 def current_time():
     return datetime.datetime.now().strftime("%d/%m·%H:%M")
 
@@ -13,7 +14,7 @@ headers = {
     'content-type': 'application/json',
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) discord/1.0.60 Chrome/108.0.5359.215 Electron/22.3.2 Safari/537.36'
 }    
-payload = {'username': "username_here"}
+payload = {'username': username}
 r = requests.post('https://discord.com/api/v9/users/@me/pomelo', headers=headers, json=payload, timeout=10)
 while r.status_code != 200:
     r = requests.post('https://discord.com/api/v9/users/@me/pomelo', headers=headers, json=payload, timeout=10)
