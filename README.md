@@ -7,6 +7,20 @@ ___
 - [x] undetectable 
 - [x] frequent updates
 ___
+#### Additional Information
+Discord is changing the way it handles usernames. It is removing the discrimitor and replacing usernames with unique names like other platforms.
+This is a controversial change since you're unlikely to get the username you want, makes usernames harder to remember and it makes Discord less unique.
+You can read more about Discord's rational [here](https://dis.gd/usernames)
+
+This script is to help you claim the username you want. The usernames feature has not yet been fully released and so there will be changes to this script later to implement improvements and optimisations.
+___
+#### Response Code Meanings
+- 
+- 
+- 
+- 
+- 
+___
 #### Requirements
 - Python 3.8 to path [[Download](https://python.org/downloads)]
 - Your Token [[Tutorial](https://youtu.be/LnBnm_tZlyU)]
