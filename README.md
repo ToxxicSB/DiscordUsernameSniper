@@ -10,11 +10,12 @@ ___
 #### Requirements
 - Python 3.8 to path [[Download](https://python.org/downloads)]
 - Your Token [[Tutorial](https://youtu.be/LnBnm_tZlyU)]
+- Your desired username
 #### Setup
 - Download and extract the contents of this repository
 - Open a command prompt in the folder containing both files
 - Run `py -3.8 -m pip install -r ./reqs.txt`
-- Edit the file `new_username_sniper.py` and input your token and desired username in the config section
+- Run `new_username_sniper.py` and input your token and desired username when it asks for them
 #### Uninstalling
 - Open a command prompt in the folder
 - Run `py -3.8 -m pip uninstall -r ./reqs.txt`
