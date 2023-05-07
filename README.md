@@ -16,6 +16,7 @@ This script is to help you claim the username you want. The usernames feature ha
 ___
 #### Response Code Explanation
 | Response code. | Meaning. | Action. | 
+| --- | --- | --- | 
 | 200 - Claimed username. | You successfully claimed the username. | Script stops. |
 | 535 - Username taken. | The username was already taken. | Script stops. |
 | 401 - Unauthorized. | You don't yet have access to the new username system. | Waits 15-30 minutes. |
