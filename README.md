@@ -24,26 +24,26 @@ ___
 | XXX - Unknown error. | An unknown error that's not apart of the others. | Waits 15-30 minutes. |
 ___
 #### Requirements
-- Python 3.8 to path [[Download](https://python.org/downloads)]
-- Your Token [[Tutorial](https://youtu.be/LnBnm_tZlyU)]
-- Your desired username
+- Python 3.8 to path. [[Download](https://python.org/downloads)]
+- Your Token. [[Tutorial](https://youtu.be/LnBnm_tZlyU)]
+- Your desired username.
 #### Setup
-- Download and extract the contents of this repository
-- Open a command prompt in the folder containing both files
-- Run `py -3.8 -m pip install -r ./reqs.txt`
-- Run `new_username_sniper.py` and input your token and desired username when it asks for them
+- Download and extract the contents of this repository.
+- Open a command prompt in the folder containing both files.
+- Run `py -3.8 -m pip install -r ./reqs.txt`.
+- Run `new_username_sniper.py` and input your token and desired username when it asks for them.
 #### Uninstalling
-- Open a command prompt in the folder
-- Run `py -3.8 -m pip uninstall -r ./reqs.txt`
-- The follow prompts and uninstall modules then just delete the folder
+- Open a command prompt in the folder.
+- Run `py -3.8 -m pip uninstall -r ./reqs.txt`.
+- The follow prompts and uninstall modules then just delete the folder.
 
 #### Reporting a Vulnerability or Bug
 - Create an issue in the `issues` tab describing the issue.
 
 #### Credits
-- **SL4F** - owner and creator of toxxic [[YouTube](https://youtube.com/sl44f) | [Twitter](https://twitter.com/sl44f)]
+- **SL4F** - owner and creator of toxxic. [[YouTube](https://youtube.com/sl44f) | [Twitter](https://twitter.com/sl44f)]
 
 #### TOS
-- By downloading and using this you agree that your responsible for anything you do with it
-- Do NOT redistribute this without my permission **[i will find you]**
-- Have a good day
+- By downloading and using this you agree that your responsible for anything you do with it.
+- Do NOT redistribute this without my permission. **[I will find you!]**
+- Have a good day!
