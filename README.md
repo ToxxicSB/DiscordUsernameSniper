@@ -14,12 +14,13 @@ You can read more about Discord's rational [here](https://dis.gd/usernames)
 
 This script is to help you claim the username you want. The usernames feature has not yet been fully released and so there will be changes to this script later to implement improvements and optimisations.
 ___
-#### Response Code Meanings
-- 
-- 
-- 
-- 
-- 
+#### Response Code Explanation
+| Response code. | Meaning. | Action. | 
+| 200 - Claimed username. | You successfully claimed the username. | Script stops. |
+| 535 - Username taken. | The username was already taken. | Script stops. |
+| 401 - Unauthorized. | You don't yet have access to the new username system. | Waits 15-30 minutes. |
+| 429 - Too many attempts. | You've sent too many attempts and have been ratelimited. | Waits 1-1.5 hours. |
+| XXX - Unknown error. | An unknown error that's not apart of the others. | Waits 15-30 minutes. |
 ___
 #### Requirements
 - Python 3.8 to path [[Download](https://python.org/downloads)]
