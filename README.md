@@ -1,7 +1,7 @@
 ## WARNING/DISCLAIMER
 ### CURRENTLY DETECTABLE, USE AT OWN RISK!
 #### WORKING ON FIX/WORKAROUND.
-##### WILL NOT GET YOUR ACCOUNT PERMANENTLY DISABLED [AS OF 10/05/23 ],BUT WILL LOCK ACCOUNT TILL PASSWORD RESET!
+###### WILL NOT GET YOUR ACCOUNT PERMANENTLY DISABLED [AS OF 10/05/23 ],BUT WILL LOCK ACCOUNT TILL PASSWORD RESET!
 ___
 # [DiscordUsernameSniper](https://youtu.be/dQw4w9WgXcQ)
 ### Snipes usernames on Discords new system for usernames that will replace user and discriminatiors.
