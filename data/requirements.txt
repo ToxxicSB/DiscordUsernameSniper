@@ -1,0 +1,4 @@
+DateTime==4.4
+colorama==0.4.4
+requests==2.27.1
+git+https://github.com/dolfies/discord.py-self@renamed#egg=selfcord.py[voice]

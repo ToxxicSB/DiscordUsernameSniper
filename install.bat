@@ -1,0 +1,37 @@
+@ECHO OFF
+REM BFCPEOPTIONSTART
+REM BFCPEEXE=
+REM BFCPEICON=
+REM BFCPEICONINDEX=-1
+REM BFCPEEMBEDDISPLAY=0
+REM BFCPEEMBEDDELETE=1
+REM BFCPEADMINEXE=0
+REM BFCPEINVISEXE=0
+REM BFCPEVERINCLUDE=0
+REM BFCPEVERVERSION=1.0.0.0
+REM BFCPEVERPRODUCT=Toxxic Installer
+REM BFCPEVERDESC=Install TOXXIC UsernameSniper
+REM BFCPEVERCOMPANY=Toxxic
+REM BFCPEVERCOPYRIGHT=Copyright Info
+REM BFCPEOPTIONEND
+REM CenterSelf
+REM CursorHide
+REM DisableQuickEdit
+
+CHCP 65001 > NUL
+TITLE TOXXIC UsernameSniper Installer
+
+python --version > NUL 2>&1
+IF %ERRORLEVEL% NEQ 0 GOTO NOPYTHON
+
+py -3.8 -m pip install --user --upgrade -r ./data/requirements.txt
+GOTO END
+
+:NOPYTHON
+ECHO ERROR: Python has either not been installed or not added to your PATH.
+
+:END
+CLS
+ECHO Installed! You can now exit this window.
+PAUSE
+EXIT

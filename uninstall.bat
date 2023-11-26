@@ -1,0 +1,37 @@
+@ECHO OFF
+REM BFCPEOPTIONSTART
+REM BFCPEEXE=
+REM BFCPEICON=
+REM BFCPEICONINDEX=-1
+REM BFCPEEMBEDDISPLAY=0
+REM BFCPEEMBEDDELETE=1
+REM BFCPEADMINEXE=0
+REM BFCPEINVISEXE=0
+REM BFCPEVERINCLUDE=0
+REM BFCPEVERVERSION=1.0.0.0
+REM BFCPEVERPRODUCT=TOXXIC Uninstaller
+REM BFCPEVERDESC=Uninstall TOXXIC UsernameSniper
+REM BFCPEVERCOMPANY=Toxxic
+REM BFCPEVERCOPYRIGHT=Copyright Info
+REM BFCPEOPTIONEND
+REM CenterSelf
+REM CursorHide
+REM DisableQuickEdit
+
+CHCP 65001 > NUL
+TITLE TOXXIC UsernameSniper Uninstaller
+
+python --version > NUL 2>&1
+IF %ERRORLEVEL% NEQ 0 GOTO NOPYTHON
+
+py -3.8 -m pip uninstall -r ./data/requirements.txt -y
+GOTO END
+
+:NOPYTHON
+ECHO ERROR: Python has either not been installed or not added to your PATH.
+
+:END
+CLS
+ECHO Unnstalled! You can now safely exit this window and delete the files.
+PAUSE
+EXIT

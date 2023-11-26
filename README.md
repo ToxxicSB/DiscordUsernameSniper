@@ -5,21 +5,22 @@ ___
 #### Features 
 - [x] efficient
 - [x] undetectable 
+- [x] user friendly
 - [x] frequent updates
 ___
 #### Requirements
 - Python 3.8 to path [[Download](https://python.org/downloads)]
 - Your Token [[Tutorial](https://youtu.be/LnBnm_tZlyU)]
-- Your desired username
+- Your desired username/usernames
 #### Setup
 - Download and extract the contents of this repository
 - Open a command prompt in the folder containing both files
-- Run `py -3.8 -m pip install -r ./reqs.txt`
-- Run `new_username_sniper.py` and input your token and desired username when it asks for them
+- Run `install.bat`
+- Run `launch.bat` and input all details when it asks for them
 #### Uninstalling
 - Open a command prompt in the folder
-- Run `py -3.8 -m pip uninstall -r ./reqs.txt`
-- The follow prompts and uninstall modules then just delete the folder
+- Run `uninstall.bat`
+- Then just delete the folder
 
 #### Reporting a Vulnerability or Bug
 - Create an issue in the `issues` tab describing the issue.
